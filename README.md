@@ -1,25 +1,26 @@
-How to Install the Vinyl Visualizer?
-
-This is a custom app for Spicetify.
-
-## What's inside
-```
-vinyl-visualizer/
-├── index.js        # the app (React, via Spicetify.React — no build step needed)
-├── manifest.json    # name + sidebar icons
-└── style.css        # spinning-disc styling, matches the AbstractBlue palette
-```
-
 ## Install
 
-1. Go to the Custom Apps folder :
+**Requirements:** [Spicetify](https://spicetify.app) installed and working with the Spotify desktop app.
+
+1. Open your Spicetify **CustomApps** folder:
    - **Windows:** `%appdata%\spicetify\CustomApps`
-   - **macOS/Linux:** `~/.config/spicetify/CustomApps`
+   - **macOS / Linux:** `~/.config/spicetify/CustomApps`
 
-2. Copy the whole `vinyl-visualizer` folder in there.
+2. Copy the whole `vinyl-visualizer` folder into it (or `git clone` this repo there).
 
-3. Paste this command in powershell
+3. Open PowerShell (or your terminal) and run:
+```bash
    spicetify config custom_apps vinyl-visualizer
    spicetify apply
+```
+   If this is your first time using Spicetify, run `spicetify backup apply` instead of `spicetify apply`.
 
-5. A record icon is the Vinyl Visualizer
+4. Restart Spotify. A record icon appears in the left sidebar. Click it to open the Vinyl Visualizer.
+
+## Uninstall
+
+```bash
+spicetify config custom_apps vinyl-visualizer-
+spicetify apply
+```
+Then delete the `vinyl-visualizer` folder from `CustomApps`.
