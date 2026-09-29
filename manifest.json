@@ -1,0 +1,5 @@
+{
+  "name": "Vinyl Visualizer",
+  "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='currentColor' d='M12 2a10 10 0 1 0 0.001 20.001A10 10 0 0 0 12 2zm0 4.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2zM12 18.5A6.5 6.5 0 1 1 18.5 12 6.51 6.51 0 0 1 12 18.5zm0-9.1A2.6 2.6 0 1 0 14.6 12 2.6 2.6 0 0 0 12 9.4z'/></svg>",
+  "active-icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='10' fill='currentColor'/><circle cx='12' cy='12' r='7.6' fill='none' stroke='#03060f' stroke-width='0.6'/><circle cx='12' cy='12' r='5.4' fill='none' stroke='#03060f' stroke-width='0.5'/><circle cx='12' cy='12' r='2.4' fill='#03060f'/><circle cx='12' cy='12' r='1' fill='currentColor'/></svg>"
+}
