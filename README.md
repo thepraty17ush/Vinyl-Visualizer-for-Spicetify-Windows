@@ -1,3 +1,16 @@
+# Vinyl Visualizer
+
+A Spicetify custom app that shows the currently playing track as a spinning vinyl record. The album art sits in the center label, and a tonearm drops and lifts as you play and pause.
+
+![Vinyl Visualizer screenshot](screenshot.png)
+
+## Features
+- Spinning record with album art as the label
+- Tonearm animation that follows play/pause
+- Progress bar and track info
+- Matches your Spicetify theme colors, with a blue fallback palette
+
+
 ## Install
 
 **Requirements:** [Spicetify](https://spicetify.app) installed and working with the Spotify desktop app.
